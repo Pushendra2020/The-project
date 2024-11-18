@@ -1,22 +1,17 @@
 import React from 'react'
+import Radio from './compnents/Radio'
 
 const App = () => {
   return (
-    <div>
-      <form action="">
+    <div className='grid p-10'>
+      <form>
+      <label for="price" class="block text-sm/6 font-medium text-gray-900">Name</label>
+      <input type="text" id="price" class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6" placeholder="Enter Name"></input>
         <h2>How satisfied are you with our products?</h2>
-        <div className="rating">
-          <input type="radio" id="1" name="rating" value="1" />
-          <label>1</label>
-          <input type="radio" id="2" name="rating" value="2" />
-          <label>2</label>
-          <input type="radio" id="3" name="rating" value="3" />
-          <label>3</label>
-          <input type="radio" id="4" name="rating" value="4" />
-          <label>4</label>
-          <input type="radio" id="5" name="rating"  />
-          <label>5</label>
-        </div>
+        <Radio/>
+        <h2>How satisfied are you with our products?</h2>
+        <h2>How satisfied are you with our products?</h2>
+        <h2>How satisfied are you with our products?</h2>
       </form>
     </div>
   )
