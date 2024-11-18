@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.j-bg{
+    background-image: url('/assrts/photo1.avif');
+}
