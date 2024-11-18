@@ -14,7 +14,7 @@ const App = () => {
           <label>3</label>
           <input type="radio" id="4" name="rating" value="4" />
           <label>4</label>
-          <input type="radio" id="5" name="rating" value="5" />
+          <input type="radio" id="5" name="rating"  />
           <label>5</label>
         </div>
       </form>
