@@ -4,12 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
     "node.js": "^0.0.1-security",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
