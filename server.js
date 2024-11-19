@@ -1,7 +1,6 @@
 import express from 'express';
 const app = express();
 const port = 3000;
-//import mongoose from 'mongoose';
 import connectDB from './db/connect.js';
 const start = async () => {
     try{
